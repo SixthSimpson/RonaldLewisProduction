@@ -1,0 +1,54 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg:            #0f0f0f;
+  --bg-card:       #1a1a1a;
+  --bg-card-hover: #222222;
+  --border:        #2e2e2e;
+  --border-hover:  #6a5020;
+
+  --text:          #e8e8e8;
+  --text-muted:    #8a8a8a;
+
+  --accent:        #c9a84c;
+  --accent-dim:    #8a6d28;
+  --accent-glow:   rgba(201, 168, 76, 0.1);
+
+  --rec:           #cc1a2a;
+
+  --nav-bg:        #141414;
+  --radius:        10px;
+  --shadow:        0 4px 24px rgba(0, 0, 0, 0.5);
+}
+
+html, body {
+  height: 100%;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: 'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+}
