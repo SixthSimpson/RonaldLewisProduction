@@ -253,8 +253,22 @@
 /* ─── About Me — Cards ───────────────────────────────── */
 .about-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: 1fr 1fr;
   gap: 1rem;
+}
+
+/* Full-width bio card */
+.about-card--full {
+  grid-column: 1 / -1;
+}
+
+.about-bio {
+  columns: 2;
+  column-gap: 2.5rem;
+}
+
+.about-bio p {
+  break-inside: avoid;
 }
 
 .about-card {
@@ -660,6 +674,16 @@ a.project-card--linked:hover .project-watch-badge {
     order: -1;
     width: 160px;
     height: 205px;
+  }
+
+  /* Stack about grid to single column */
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Bio single column on tablet */
+  .about-bio {
+    columns: 1;
   }
 }
 

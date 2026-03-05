@@ -32,65 +32,51 @@ function ResumeSection({ title, items }) {
 function Resume() {
   const experience = [
     {
-      role: 'Senior Video Producer',
-      org: 'Visionary Media Group',
-      date: '2021 – Present',
+      role: 'Story Producer',
+      date: '2022 – Present',
       location: 'Los Angeles, CA',
       description: [
-        'Lead end-to-end video production for brand campaigns and documentaries.',
-        'Manage a team of 6 creatives across pre-production, shoot, and post.',
-        'Delivered 40+ projects with a combined 10M+ views across platforms.',
+        'Leads narrative development across production and post by building character arcs, structuring episodic storylines, and collaborating closely with editors to deliver emotionally resonant, ratings-driven content.',
       ],
     },
     {
-      role: 'Creative Director',
-      org: 'Freelance',
-      date: '2018 – 2021',
-      location: 'Remote',
+      role: 'Field Producer',
       description: [
-        'Directed brand identity projects for startups and independent artists.',
-        'Produced music videos, lookbooks, and social content campaigns.',
-        'Built and maintained long-term client relationships with 90% retention rate.',
+        'Produces story in the field by conducting interviews, tracking character development, identifying emerging beats, and ensuring continuity through post-production. Partners with Post producers and editors to shape raw footage into cohesive, high-impact episodes.',
       ],
     },
     {
-      role: 'Multimedia Designer',
-      org: 'Pulse Agency',
-      date: '2015 – 2018',
-      location: 'Atlanta, GA',
+      role: 'Development Associate',
       description: [
-        'Designed graphics, motion assets, and web visuals for entertainment clients.',
-        'Collaborated with marketing teams on integrated digital campaigns.',
-        'Won agency-of-the-year award in 2017 for client campaign performance.',
+        'Contributes to series creation from concept to pitch by identifying talent, crafting show bibles, producing development shoots, editing sizzles, and shaping sellable formats aligned with network and streamer mandates.',
       ],
     },
   ]
 
   const education = [
     {
-      role: 'B.F.A. in Film & Media Arts',
+      role: "Master's Degree in Entertainment Industry Management",
       org: 'California State University Northridge',
-      date: '2017 – 2019',
+      date: '2026',
       location: 'Northridge, CA',
     },
     {
-      role: 'Certificate in Brand Strategy',
-      org: 'Miami Ad School',
-      date: '2016',
+      role: "Bachelor's Degree in Television Production with an emphasis in Directing",
+      org: 'California State University Northridge',
+      date: '2021',
+      location: 'Northridge, CA',
     },
   ]
 
   const skills = [
-    { role: 'Tools & Software', org: 'Adobe Premiere Pro, After Effects, Photoshop, Illustrator, DaVinci Resolve, Logic Pro X, Figma', date: '' },
-    { role: 'Production', org: 'RED & ARRI cinema cameras, lighting design, location sound, drone operation (FAA Part 107)', date: '' },
-    { role: 'Languages', org: 'English (native), Spanish (conversational)', date: '' },
+    { role: 'Tools & Software', org: 'Avid Media Composer, Adobe Premiere, Final Cut X', date: '' },
   ]
 
   return (
     <section className="section resume-section-wrapper">
       <div className="resume-header">
         <h1>Ronald Lewis</h1>
-        <p className="resume-subtitle">Creative Professional &bull; Video Producer &bull; Brand Director</p>
+        <p className="resume-subtitle">Development Producer &bull; Field Producer &bull; Post/Story Producer</p>
         <p className="resume-contact">
           <a href="mailto:ronaldlewis.prod@gmail.com">ronaldlewis.prod@gmail.com</a> &nbsp;&bull;&nbsp; Los Angeles, CA &nbsp;&bull;&nbsp; <a href="https://www.linkedin.com/in/ronald-lewis-b3a97a186/" target="_blank" rel="noopener noreferrer">linkedin.com/in/ronaldlewis</a> &nbsp;&bull;&nbsp; <a href="https://www.imdb.com/name/nm13491855/" target="_blank" rel="noopener noreferrer">IMDb</a>
         </p>
