@@ -67,7 +67,7 @@ function AboutMe() {
           <ul className="contact-list">
             <li><strong>Email:</strong> <a href="mailto:ronaldlewis.prod@gmail.com">ronaldlewis.prod@gmail.com</a></li>
             <li><strong>Location:</strong> Los Angeles, CA</li>
-            <li><strong>Instagram:</strong> @ronlewisprod</li>
+            <li><strong>Instagram:</strong> <a href = "https://www.instagram.com/ronaldlewisprod?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer"> @ronlewisprod</a></li>
             <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ronald-lewis-b3a97a186/" target="_blank" rel="noopener noreferrer">linkedin.com/in/ronaldlewis</a></li>
             <li><strong>IMDb:</strong> <a href="https://www.imdb.com/name/nm13491855/" target="_blank" rel="noopener noreferrer">imdb.com/name/nm13491855</a></li>
           </ul>
